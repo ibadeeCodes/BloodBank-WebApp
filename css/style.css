@@ -1,0 +1,147 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+.brand-logo.center {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  top: 10px;
+}
+#header nav {
+  position: fixed;
+  height: 80px;
+  z-index: 999;
+}
+#content {
+  padding: 150px 0px !important;
+}
+.red-text {
+  font-weight: 300;
+}
+.donor_table th {
+  font-size: 20px;
+}
+.donor_table td {
+  font-size: 18px;
+}
+.register_sec {
+  right: 120px !important;
+}
+.login button,
+.signup button {
+  background: none;
+  border: 2px solid #d50000;
+  font-size: 24px;
+  padding: 15px 0px;
+  margin: 12px 0px;
+  width: 200px;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  color: #d50000;
+}
+.login button:focus {
+  background: none;
+}
+.login h4 {
+  font-family: arial;
+  font-size: 30px;
+}
+.login h4 {
+  font-family: arial;
+  font-size: 25px;
+}
+.card-image img{
+  padding: 30px 0px;
+}
+.safeText {
+  padding: 0px 45px;
+}
+.safeText h3 {
+  font-weight: 300;
+  color: #d50000
+}
+.safeText p {
+  font-size: 20px;
+}
+.banner2 {
+  padding: 100px 0px;
+}
+.card2 {
+  width: 500px;
+  margin: 0 auto;
+}
+.modal {
+  border-bottom: 4px solid #d50000;
+  border-radius: 20px;
+  width: 500px;
+  height: 420px !important;
+  background-color: white;
+}
+#modal1 {
+  height: 380px !important;
+}
+.modal h4 {
+  color: #d50000;
+}
+#modal1,
+#modal2 {
+  padding: 30px 30px;
+}
+.modal-content h4 {
+  margin-bottom: 30px;
+}
+.modal-content input::placeholder {
+  text-transform: capitalize;
+  font-size: 18px !important;
+}
+.modal-content input:focus {
+  border-bottom: 1px solid red !important;
+}
+.modal-content input {
+  font-size: 20px !important;
+  margin: 5px 0 !important;
+}
+.modal-content input[type="submit"] {
+  background: #d50000 !important;
+  text-transform: capitalize;
+  margin-top: 20px !important;
+}
+.hidden_btn1,
+.hidden_btn2 {
+  display: none !important;
+}
+#modal4 {
+  padding: 0px 10px;
+  height: 490px !important;
+}
+#details_form span {
+  color: #d50000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+#details_form span i {
+  font-size: 30px;
+}
+#details_form h5{
+  padding: 0px 15px;
+}
+.footer-copyright i {
+  padding: 10px 0px !important;
+}
+
+@media (max-width: 768px) {
+  .brand-logo.center {
+    font-size: 30px;
+    top: 4px;
+  }
+  #header nav {
+    height: 60px;
+  }
+}

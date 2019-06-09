@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- This is Navbar -->
+
+    <div id="header">
+      <nav class="red accent-4">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Blood Bank</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- This is Page Content -->
+
+    <div id="content">
+      <div class="container">
+        <div class="row">
+          <table class="donor_table highlight col m7 s12">
+            <h2 class="red-text text-accent-4">Our Respected Donors!</h2>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Blood Group</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="individual_details">
+              <!-- Space Reserved For Donators -->
+            </tbody>
+          </table>
+          <div class="register_sec col m4 offset-m1 s12">
+            <div class="login center">
+              <h4>Donate Your Blood &<br />Save Others Life With Us!</h4>
+              <br />
+              <button data-target="modal1" class="modal-trigger shown_btn1">
+                Sign In
+              </button>
+              <button data-target="modal3" class="modal-trigger hidden_btn1">
+                Donate
+              </button>
+            </div>
+            <div class="signup center">
+              <button data-target="modal2" class="modal-trigger shown_btn2">
+                Sign Up
+              </button>
+              <button class="modal-trigger hidden_btn2" data-target="modal5">
+                Sign Out
+              </button>
+              <h5 class="create_account">Create an Account</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner1">
+      <div class="container">
+        <div class="row">
+          <div class="col m7 s12">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/blood.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="col m5 s12">
+            <div class="safeText">
+              <h3 class="">Safe blood for all!</h3>
+              <p>This year, World Blood Donor Day will once again be celebrated around the world on 14 June. The event
+                serves to thank voluntary, unpaid blood donors for their life-saving gifts of blood and also to raise
+                awareness of the need for regular blood donations to ensure that all individuals and communities have
+                access to affordable and timely supplies of safe and quality-assured blood and blood products, as an
+                integral part of universal health coverage and a key component of effective health systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner2">
+        <div class="container">
+          <div class="row">
+            <div class="col m5 s12">
+              <div class="safeText">
+                <h3 class="">Time to share!</h3>
+                <p>This year, World Blood Donor Day will once again be celebrated around the world on 14 June. The event
+                  serves to thank voluntary, unpaid blood donors for their life-saving gifts of blood and also to raise
+                  awareness of the need for regular blood donations to ensure that all individuals and communities have
+                  access to affordable and timely supplies of safe and quality-assured blood and blood products, as an
+                  integral part of universal health coverage and a key component of effective health systems.</p>
+              </div>
+            </div>
+            <div class="col m7 s12">
+              <div class="card2 card">
+                <div class="card-image">
+                  <img src="images/date.png">
+                </div>
+              </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    <footer class="page-footer #b71c1c red darken-4">
+        <div class="container">
+          <div class="row">
+            <div class="col l4 s12">
+              <h5 class="white-text">Our Mission</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col offset-l2 l4 s12">
+              <h5 class="white-text">Regions</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Africa</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Asia</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">America</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Europe</a></li>
+              </ul>
+            </div>
+            <div class="col l2 s12">
+              <h5 class="white-text">What we do</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Programmes</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Frequently asked questions</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">World Health Assembly</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Countries</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <span class="yo">© 2019 Made with    <i class="material-icons">favorite</i>    by Ibad</span>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- Modal Structure For Login -->
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <form id="signin_submit">
+          <h4 class="center">SignIn Account</h4>
+          <input type="email" placeholder="enter email" id="signin_email" />
+          <input type="password" placeholder="enter password" id="signin_password" />
+          <input type="submit" value="Sign in" class="btn" />
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal Structure For SignUp -->
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <form id="signup_submit">
+          <h4 class="center">SignUp Account</h4>
+          <input type="text" placeholder="enter name" class="username" />
+          <input type="email" value="" placeholder="enter email" id="signup_email" />
+          <input type="password" value="" placeholder="enter password" id="signup_password" />
+          <input type="submit" value="SignUp" class="btn" />
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal Structure For Donate -->
+
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <form id="donate_submit">
+          <h4 class="center">Donate You Blood!</h4>
+          <input type="text" placeholder="Enter name" id="name" />
+          <input type="text" placeholder="Enter Address" id="address" />
+          <input type="text" placeholder="Enter Phone" id="phone_number" required />
+          <input type="text" placeholder="Enter Blood Group" id="blood_group" />
+          <input type="submit" value="Donate" class="btn" />
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal Structure For Donate_Details -->
+
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <form id="details_form">
+          <h4 class="center">Donate You Blood!</h4>
+          <div><span><i class="material-icons">person_pin</i>Name :</span>
+            <h5 class="name_details"></h5>
+          </div>
+          <div><span><i class="material-icons">location_on</i>Address :</span>
+            <h5 class="address_details"></h5>
+          </div>
+          <div><span><i class="material-icons">phone</i>Phone :</span>
+            <h5 class="phone_details"></h5>
+          </div>
+          <div><span><i class="material-icons">whatshot</i>Blood Group :</span>
+            <h5 class="bloodgroup_details"></h5>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal Structure For SignOut Confirmation -->
+
+    <div id="modal5" class="modal">
+      <div class="modal-content">
+        <form id="signout_confirmation">
+          <h3>Are You Sure?</h3>
+          <input type="submit" value="Yes" class="btn Yes" />
+          <input type="submit" value="No" class="btn no" />
+        </form>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-firestore.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBjjo-gMyAmL_x3lKXwXVpgficm01vhrYo",
+    authDomain: "blood-bank-app-12331.firebaseapp.com",
+    databaseURL: "https://blood-bank-app-12331.firebaseio.com",
+    projectId: "blood-bank-app-12331"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  let auth = firebase.auth();
+  let db = firebase.firestore();
+</script>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="/scripts/app.js"></script>
+
+</html>
