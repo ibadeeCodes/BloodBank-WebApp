@@ -23,6 +23,9 @@ main {
 .red-text {
   font-weight: 300;
 }
+.table .donor_table {
+  height: 50px !important;
+}
 .donor_table th {
   font-size: 20px;
 }

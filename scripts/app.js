@@ -120,7 +120,7 @@ const setupGuides = (data) => {
         <td>${donor.BloodGroup}</td>
         <td>
           <button data-target="modal4" class="btn modal-trigger waves-effect waves-light btn right red accent-4">
-            Detailes
+            Details
           </button>
         </td>
       </tr>
